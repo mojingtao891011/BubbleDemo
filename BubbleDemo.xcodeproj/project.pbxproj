@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFAC4FB183AD0AD00514725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAC4FA183AD0AD00514725 /* UIKit.framework */; };
+		CEFAC4FD183AD0AD00514725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAC4FC183AD0AD00514725 /* Foundation.framework */; };
+		CEFAC4FF183AD0AD00514725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAC4FE183AD0AD00514725 /* CoreGraphics.framework */; };
+		CEFAC505183AD0AD00514725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC503183AD0AD00514725 /* InfoPlist.strings */; };
+		CEFAC507183AD0AD00514725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAC506183AD0AD00514725 /* main.m */; };
+		CEFAC50B183AD0AD00514725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAC50A183AD0AD00514725 /* AppDelegate.m */; };
+		CEFAC50D183AD0AD00514725 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC50C183AD0AD00514725 /* Default.png */; };
+		CEFAC50F183AD0AE00514725 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC50E183AD0AE00514725 /* Default@2x.png */; };
+		CEFAC511183AD0AE00514725 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC510183AD0AE00514725 /* Default-568h@2x.png */; };
+		CEFAC514183AD0AE00514725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAC513183AD0AE00514725 /* ViewController.m */; };
+		CEFAC517183AD0AE00514725 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC515183AD0AE00514725 /* ViewController.xib */; };
+		CEFAC51E183AE2F300514725 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC51D183AE2F300514725 /* my.png */; };
+		CEFAC520183AE31700514725 /* other.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC51F183AE31700514725 /* other.jpg */; };
+		CEFAC523183AF90300514725 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC521183AF90300514725 /* bubble.png */; };
+		CEFAC524183AF90300514725 /* bubbleSelf.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAC522183AF90300514725 /* bubbleSelf.png */; };
+		D28D667218C0390B0077206F /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = D28D666B18C0390B0077206F /* base64.c */; };
+		D28D667318C0390B0077206F /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D666E18C0390B0077206F /* NSData+SRB64Additions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D28D667418C0390B0077206F /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D28D667118C0390B0077206F /* SRWebSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D28D667618C0391D0077206F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D667518C0391D0077206F /* Security.framework */; };
+		D28D667818C039480077206F /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D28D667718C039480077206F /* libicucore.dylib */; };
+		D28F7FC618BDBBC5004C3136 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28F7FC518BDBBC5004C3136 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEFAC4F7183AD0AD00514725 /* BubbleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFAC4FA183AD0AD00514725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFAC4FC183AD0AD00514725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFAC4FE183AD0AD00514725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFAC502183AD0AD00514725 /* BubbleDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleDemo-Info.plist"; sourceTree = "<group>"; };
+		CEFAC504183AD0AD00514725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFAC506183AD0AD00514725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFAC508183AD0AD00514725 /* BubbleDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BubbleDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CEFAC509183AD0AD00514725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEFAC50A183AD0AD00514725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEFAC50C183AD0AD00514725 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEFAC50E183AD0AE00514725 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEFAC510183AD0AE00514725 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEFAC512183AD0AE00514725 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEFAC513183AD0AE00514725 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEFAC516183AD0AE00514725 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CEFAC51D183AE2F300514725 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = my.png; path = BubbleDemo/my.png; sourceTree = "<group>"; };
+		CEFAC51F183AE31700514725 /* other.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = other.jpg; path = BubbleDemo/other.jpg; sourceTree = "<group>"; };
+		CEFAC521183AF90300514725 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubble.png; path = BubbleDemo/bubble.png; sourceTree = "<group>"; };
+		CEFAC522183AF90300514725 /* bubbleSelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubbleSelf.png; path = BubbleDemo/bubbleSelf.png; sourceTree = "<group>"; };
+		D28D666B18C0390B0077206F /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		D28D666C18C0390B0077206F /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		D28D666D18C0390B0077206F /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		D28D666E18C0390B0077206F /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		D28D666F18C0390B0077206F /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		D28D667018C0390B0077206F /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		D28D667118C0390B0077206F /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		D28D667518C0391D0077206F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D28D667718C039480077206F /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		D28F7FC518BDBBC5004C3136 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFAC4F4183AD0AD00514725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D667818C039480077206F /* libicucore.dylib in Frameworks */,
+				D28D667618C0391D0077206F /* Security.framework in Frameworks */,
+				D28F7FC618BDBBC5004C3136 /* CFNetwork.framework in Frameworks */,
+				CEFAC4FB183AD0AD00514725 /* UIKit.framework in Frameworks */,
+				CEFAC4FD183AD0AD00514725 /* Foundation.framework in Frameworks */,
+				CEFAC4FF183AD0AD00514725 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFAC4EE183AD0AD00514725 = {
+			isa = PBXGroup;
+			children = (
+				D28D666A18C0390B0077206F /* SocketRocket */,
+				D28F7FC418BDBB66004C3136 /* ImageSource */,
+				D28F7FC318BDBB3B004C3136 /* OtherSources */,
+				CEFAC500183AD0AD00514725 /* BubbleDemo */,
+				CEFAC4F9183AD0AD00514725 /* Frameworks */,
+				CEFAC4F8183AD0AD00514725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFAC4F8183AD0AD00514725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAC4F7183AD0AD00514725 /* BubbleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFAC4F9183AD0AD00514725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28D667718C039480077206F /* libicucore.dylib */,
+				D28D667518C0391D0077206F /* Security.framework */,
+				D28F7FC518BDBBC5004C3136 /* CFNetwork.framework */,
+				CEFAC4FA183AD0AD00514725 /* UIKit.framework */,
+				CEFAC4FC183AD0AD00514725 /* Foundation.framework */,
+				CEFAC4FE183AD0AD00514725 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFAC500183AD0AD00514725 /* BubbleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAC509183AD0AD00514725 /* AppDelegate.h */,
+				CEFAC50A183AD0AD00514725 /* AppDelegate.m */,
+				CEFAC512183AD0AE00514725 /* ViewController.h */,
+				CEFAC513183AD0AE00514725 /* ViewController.m */,
+				CEFAC515183AD0AE00514725 /* ViewController.xib */,
+				CEFAC501183AD0AD00514725 /* Supporting Files */,
+			);
+			path = BubbleDemo;
+			sourceTree = "<group>";
+		};
+		CEFAC501183AD0AD00514725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAC502183AD0AD00514725 /* BubbleDemo-Info.plist */,
+				CEFAC503183AD0AD00514725 /* InfoPlist.strings */,
+				CEFAC506183AD0AD00514725 /* main.m */,
+				CEFAC508183AD0AD00514725 /* BubbleDemo-Prefix.pch */,
+				CEFAC50C183AD0AD00514725 /* Default.png */,
+				CEFAC50E183AD0AE00514725 /* Default@2x.png */,
+				CEFAC510183AD0AE00514725 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D28D666A18C0390B0077206F /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				D28D666B18C0390B0077206F /* base64.c */,
+				D28D666C18C0390B0077206F /* base64.h */,
+				D28D666D18C0390B0077206F /* NSData+SRB64Additions.h */,
+				D28D666E18C0390B0077206F /* NSData+SRB64Additions.m */,
+				D28D666F18C0390B0077206F /* SocketRocket-Prefix.pch */,
+				D28D667018C0390B0077206F /* SRWebSocket.h */,
+				D28D667118C0390B0077206F /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		D28F7FC318BDBB3B004C3136 /* OtherSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OtherSources;
+			sourceTree = "<group>";
+		};
+		D28F7FC418BDBB66004C3136 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAC521183AF90300514725 /* bubble.png */,
+				CEFAC522183AF90300514725 /* bubbleSelf.png */,
+				CEFAC51D183AE2F300514725 /* my.png */,
+				CEFAC51F183AE31700514725 /* other.jpg */,
+			);
+			name = ImageSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFAC4F6183AD0AD00514725 /* BubbleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFAC51A183AD0AE00514725 /* Build configuration list for PBXNativeTarget "BubbleDemo" */;
+			buildPhases = (
+				CEFAC4F3183AD0AD00514725 /* Sources */,
+				CEFAC4F4183AD0AD00514725 /* Frameworks */,
+				CEFAC4F5183AD0AD00514725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleDemo;
+			productName = BubbleDemo;
+			productReference = CEFAC4F7183AD0AD00514725 /* BubbleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFAC4EF183AD0AD00514725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = user;
+			};
+			buildConfigurationList = CEFAC4F2183AD0AD00514725 /* Build configuration list for PBXProject "BubbleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFAC4EE183AD0AD00514725;
+			productRefGroup = CEFAC4F8183AD0AD00514725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFAC4F6183AD0AD00514725 /* BubbleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFAC4F5183AD0AD00514725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFAC505183AD0AD00514725 /* InfoPlist.strings in Resources */,
+				CEFAC50D183AD0AD00514725 /* Default.png in Resources */,
+				CEFAC50F183AD0AE00514725 /* Default@2x.png in Resources */,
+				CEFAC511183AD0AE00514725 /* Default-568h@2x.png in Resources */,
+				CEFAC517183AD0AE00514725 /* ViewController.xib in Resources */,
+				CEFAC51E183AE2F300514725 /* my.png in Resources */,
+				CEFAC520183AE31700514725 /* other.jpg in Resources */,
+				CEFAC523183AF90300514725 /* bubble.png in Resources */,
+				CEFAC524183AF90300514725 /* bubbleSelf.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFAC4F3183AD0AD00514725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D667418C0390B0077206F /* SRWebSocket.m in Sources */,
+				D28D667318C0390B0077206F /* NSData+SRB64Additions.m in Sources */,
+				CEFAC507183AD0AD00514725 /* main.m in Sources */,
+				CEFAC50B183AD0AD00514725 /* AppDelegate.m in Sources */,
+				D28D667218C0390B0077206F /* base64.c in Sources */,
+				CEFAC514183AD0AE00514725 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFAC503183AD0AD00514725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFAC504183AD0AD00514725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEFAC515183AD0AE00514725 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFAC516183AD0AE00514725 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFAC518183AD0AE00514725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEFAC519183AD0AE00514725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFAC51B183AD0AE00514725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleDemo/BubbleDemo-Prefix.pch";
+				INFOPLIST_FILE = "BubbleDemo/BubbleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFAC51C183AD0AE00514725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleDemo/BubbleDemo-Prefix.pch";
+				INFOPLIST_FILE = "BubbleDemo/BubbleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFAC4F2183AD0AD00514725 /* Build configuration list for PBXProject "BubbleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFAC518183AD0AE00514725 /* Debug */,
+				CEFAC519183AD0AE00514725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFAC51A183AD0AE00514725 /* Build configuration list for PBXNativeTarget "BubbleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFAC51B183AD0AE00514725 /* Debug */,
+				CEFAC51C183AD0AE00514725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFAC4EF183AD0AD00514725 /* Project object */;
+}
