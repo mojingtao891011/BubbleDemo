@@ -35,7 +35,7 @@
     _webSocket.delegate = self;
     [_webSocket open];
     self.view.backgroundColor = [UIColor whiteColor];
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, 320,SCREEN_HEIGHT - 44) style:UITableViewStylePlain];
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, 320,SCREEN_HEIGHT - 64) style:UITableViewStylePlain];
     
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -46,7 +46,7 @@
     
     
 //	创建一个 toolbar
-    _toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT - 44, 320, 44)];
+    _toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT - 64, 320, 44)];
     
     [self.view addSubview:_toolBar];
     
@@ -216,8 +216,8 @@
     
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:.25];
-    _tableView.frame =CGRectMake(0, 20, 320, SCREEN_HEIGHT - 44 - 216 - currentKeyboardHeigetDistance);
-    _toolBar.frame = CGRectMake(0, SCREEN_HEIGHT - 44 -216 - currentKeyboardHeigetDistance, 320, 44);
+    _tableView.frame =CGRectMake(0, 20, 320, SCREEN_HEIGHT - 64 - 216 - currentKeyboardHeigetDistance);
+    _toolBar.frame = CGRectMake(0, SCREEN_HEIGHT - 64 -216 - currentKeyboardHeigetDistance, 320, 44);
     [UIView commitAnimations];
     
     
@@ -274,8 +274,8 @@
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:.25];
     
-    _toolBar.frame = CGRectMake(0, SCREEN_HEIGHT - 44, 320, 44);
-    _tableView.frame = CGRectMake(0, 20, 320, SCREEN_HEIGHT - 44);
+    _toolBar.frame = CGRectMake(0, SCREEN_HEIGHT - 64, 320, 44);
+    _tableView.frame = CGRectMake(0, 20, 320, SCREEN_HEIGHT - 64);
     
     [UIView commitAnimations];
     
